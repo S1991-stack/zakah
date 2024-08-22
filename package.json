@@ -1,0 +1,23 @@
+{
+  "name": "zakah_calculator",
+  "version": "1.0.0",
+  "description": "تطبيق يقوم بحساب زكاة المسلم",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "الزكاة",
+    "حاسبة",
+    "كيفية",
+    "حساب"
+  ],
+  "author": "salah alfaham",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "electron-builder": "^24.13.3",
+    "electron-packager": "^17.1.2"
+  }
+}
